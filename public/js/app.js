@@ -1,1 +1,0 @@
-console.log('Hello from sikara-dev academy container');
