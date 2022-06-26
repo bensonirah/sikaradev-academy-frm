@@ -4,7 +4,7 @@ This is a starter project to master Javascript Learning path
 # Install
 
 ```bash
-curl -s https://github.com/bensonirah/sikaradev-academy-frm/install.sh |bash
+curl -s https://raw.githubusercontent.com/bensonirah/sikaradev-academy-frm/main/install.sh | bash
 ```
 
 # Run server
