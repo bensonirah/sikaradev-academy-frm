@@ -1,3 +1,3 @@
-const printStringMethod = require("./lib/string_method");
+const printArrays = require("./lib/arrays");
 
-printStringMethod();
+printArrays();
