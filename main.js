@@ -1,3 +1,3 @@
-const printStringMethod = require("./lib/string_method");
+const printStringTemplate = require("./lib/string_template");
 
-printStringMethod();
+printStringTemplate("Bensonirah", "Sikaradev Academy");
