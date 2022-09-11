@@ -1,5 +1,5 @@
 # Hoisting
-
+> Default behavior of moving declaration to the top
 ## Javascript declaration are hoisted
 
 ```javascript

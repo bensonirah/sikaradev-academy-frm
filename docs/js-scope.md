@@ -41,7 +41,7 @@ function myFunction () {
 }
 ```
 
-## Global Javascript Vairables
+## Global Javascript Variables
 
 ```javascript
 let carName = 'Volvo'
@@ -62,4 +62,13 @@ myFunction()
 function myFunction () {
   carName = 'Volvo'
 }
+```
+
+## Global Variables in HTML (window.\* object)
+
+```javascript
+var userName = 'alice'
+// code here can use window.userName
+let userEmail = 'alice@domain.com'
+// code here can not use window.userEmail
 ```
