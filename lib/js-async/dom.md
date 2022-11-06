@@ -16,3 +16,19 @@
 - Attributes and properties
 - Modifying the document
 - Styles and classes
+
+
+```html
+
+<a>
+    <b>
+        <a></a>
+        <b></b>
+    </b>
+    <c>
+        <a></a>
+        <b></b>
+    </c>
+</a>
+
+```

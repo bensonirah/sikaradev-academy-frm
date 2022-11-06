@@ -7,15 +7,40 @@
     <title>DOM</title>
   </head>
   <body>
-    <div>
-      <h1>Dom</h1>
-      <!--Ceci est un commentaire-->
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
-        pariatur debitis tempore accusantium ipsa inventore maxime provident
-        odio! Dolorem tempora quaerat dignissimos natus? Dicta quia voluptatibus
-        hic cum labore! Natus.
-      </p>
+    <h1 id="contents">Contents</h1>
+    <input type="text" name="username" />
+    <form action="" name="upload_file"></form>
+    <div class="contents">
+      <ul class="book">
+        <li class="chapter">Chapter 1</li>
+        <li class="chapter">Chapter 2</li>
+      </ul>
+      <a href="http://example.com/file.zip">File.zip</a>
+      <a href="http://ya.ru">A link</a>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        /* const chapter = document.querySelector(".chapter");
+        console.log(chapter.closest(".book"));
+        console.log(chapter.closest(".contents"));
+        console.log(chapter.closest("div")); */
+
+        const childrenElements = document.querySelector(".contents").children;
+
+        //console.log(childrenElements);
+        /* for (let e of childrenElements) {
+          if (e.matches("a[href^='http']")) {
+            console.log(e);
+          }
+        } */
+        // https://medium.com/nerd-for-tech/up-your-dom-manipulation-game-through-these-exercises-part-01-103864ac8b0b
+        // https://crocoder.dev/blog/the-dom-exercises/
+        // https://levelup.gitconnected.com/youre-an-html-dom-pro-if-you-can-solve-these-10-exercises-2b1014286071
+        const li = document.createElement("li");
+        li.innerText = "Chapter 3";
+        document.querySelector(".book").append(li);
+      });
+    </script>
   </body>
 </html>
